@@ -65,4 +65,10 @@ public class MainActivity extends AppCompatActivity {
         finish();
         startActivity(intent);
     }
+
+    public void openExercise4_5(View v){
+        Intent intent = new Intent(this, Exercise4_5.class);
+        finish();
+        startActivity(intent);
+    }
 }

@@ -42,7 +42,6 @@ public class Exercise3 extends AppCompatActivity implements SensorEventListener 
 
     @Override
     public void onSensorChanged(SensorEvent event) {
-        // We will get the values X, Y and Z
 
         float actualX = (float) (Math.round( event.values[0] * Math.pow(10, 2)) / Math.pow(10, 2));
         float actualY = (float) (Math.round( event.values[1] * Math.pow(10, 2)) / Math.pow(10, 2));

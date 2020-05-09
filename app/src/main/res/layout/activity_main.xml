@@ -8,6 +8,21 @@
     tools:context=".MainActivity">
 
     <Button
+        android:id="@+id/openExercise4_5"
+        android:layout_width="107dp"
+        android:layout_height="48dp"
+        android:background="#03A9F4"
+        android:onClick="openExercise4_5"
+        android:text="Exercicio 4_5"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.549" />
+
+    <Button
         android:id="@+id/openExercise"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -64,9 +79,9 @@
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/openExercise2"
-        app:layout_constraintHorizontal_bias="0.551"
+        app:layout_constraintHorizontal_bias="0.276"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/openExercise2"
-        app:layout_constraintVertical_bias="0.009" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.248" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
