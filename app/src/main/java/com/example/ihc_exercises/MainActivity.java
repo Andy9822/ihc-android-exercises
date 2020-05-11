@@ -71,4 +71,10 @@ public class MainActivity extends AppCompatActivity {
         finish();
         startActivity(intent);
     }
+
+    public void openExercise6(View v){
+        Intent intent = new Intent(this, Exercise6.class);
+        finish();
+        startActivity(intent);
+    }
 }
