@@ -7,18 +7,6 @@
     android:layout_height="match_parent"
     tools:context=".Exercise6">
 
-    <TextView
-        android:id="@+id/longitudView"
-        android:layout_width="318dp"
-        android:layout_height="20dp"
-        android:text="Longitude: "
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.602"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/latitudeView"
-        app:layout_constraintVertical_bias="0.038" />
-
     <Button
         android:id="@+id/menuButton5"
         android:layout_width="wrap_content"
@@ -34,6 +22,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.849" />
+
+    <TextView
+        android:id="@+id/longitudView"
+        android:layout_width="318dp"
+        android:layout_height="20dp"
+        android:text="Longitude: "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.602"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/latitudeView"
+        app:layout_constraintVertical_bias="0.038" />
 
     <TextView
         android:id="@+id/latitudeView"
@@ -63,4 +63,16 @@
         app:layout_constraintStart_toStartOf="@+id/longitudView"
         app:layout_constraintTop_toBottomOf="@+id/longitudView"
         app:layout_constraintVertical_bias="0.005" />
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="316dp"
+        android:layout_height="272dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/longitudView"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/button2"
+        app:layout_constraintTop_toBottomOf="@+id/button2"
+        app:layout_constraintVertical_bias="0.091" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
